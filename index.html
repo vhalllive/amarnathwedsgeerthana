@@ -26,6 +26,18 @@
 		.center {
 		  margin: 0 auto;
 		}
+		.video_wrapper {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+			}
+			iframe{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			}<
 		</script>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -147,6 +159,11 @@
 					<div class="text-center containers">
 						<img class="responsive-iframe" src="images/poster.gif" >
 					</div>
+					<div class="text-center containers">
+            <iframe class="responsive-iframe" frameborder="0" width="100%" height="100%" src="https://3.6.39.103:80" scrolling="no" allowfullscreen allow="autoplay">
+					</iframe>
+					</div>
+
 			</div>
 			<p align="center">
 				<a href='https://www.horando.de/en/'>Classic watches</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=060d70cdcb1b95b47b4370d3683b7f4d0018feb5'></script>
